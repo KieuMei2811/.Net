@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<table id="datatablesSimple" class="dataTable-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Detail</th>       
+            <th>Images</th>   
+            <th>Chức năng</th>
+        </tr>          
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+                    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Detail</td>
+            <td><img style="width:100px;" src="@item.Images" /></td>
+            <td>
+                <a href="/Products/Edit/@item.ID">Sửa</a>
+                <a href="/Products/Delete/@item.ID">Xóa</a>
+        
+            </td>
+        </tr>
+                    }
+    </tbody>
+</table>
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbAspNet", "dbAspNet\dbAspNet.csproj", "{AD839618-C4EB-4BAD-A216-0E248581C047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{50A1EEB5-535C-4E37-800C-CE3208018BC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD839618-C4EB-4BAD-A216-0E248581C047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD839618-C4EB-4BAD-A216-0E248581C047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD839618-C4EB-4BAD-A216-0E248581C047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD839618-C4EB-4BAD-A216-0E248581C047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A1EEB5-535C-4E37-800C-CE3208018BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A1EEB5-535C-4E37-800C-CE3208018BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A1EEB5-535C-4E37-800C-CE3208018BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A1EEB5-535C-4E37-800C-CE3208018BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A391A7E-CFFE-493E-994A-642F093FE9E0}
+	EndGlobalSection
+EndGlobal
